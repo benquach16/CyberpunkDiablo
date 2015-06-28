@@ -6,11 +6,15 @@
 UCLASS(Blueprintable)
 class ACyberpunkDiabloCharacter : public ACharacter
 {
+public:
 	GENERATED_BODY()
 	ACyberpunkDiabloCharacter();
 
-	void BeginPlay();
+	virtual void BeginPlay();
 
-	void Tick(float DeltaTime);
+	virtual void Tick(float DeltaTime);
+
+	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent);
+	
 };
 

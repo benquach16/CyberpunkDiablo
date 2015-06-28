@@ -4,7 +4,7 @@
 #include "CyberpunkDiabloCharacter.h"
 
 // Sets default values
-ACyberpunkDiabloPlayer::ACyberpunkDiabloPlayer()
+ACyberpunkDiabloCharacter::ACyberpunkDiabloCharacter()
 {
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -12,21 +12,21 @@ ACyberpunkDiabloPlayer::ACyberpunkDiabloPlayer()
 }
 
 // Called when the game starts or when spawned
-void ACyberpunkDiabloPlayer::BeginPlay()
+void ACyberpunkDiabloCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
 }
 
 // Called every frame
-void ACyberpunkDiabloPlayer::Tick(float DeltaTime)
+void ACyberpunkDiabloCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
 }
 
 // Called to bind functionality to input
-void ACyberpunkDiabloPlayer::SetupPlayerInputComponent(class UInputComponent* InputComponent)
+void ACyberpunkDiabloCharacter::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 {
 	Super::SetupPlayerInputComponent(InputComponent);
 
