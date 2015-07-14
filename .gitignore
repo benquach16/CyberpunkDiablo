@@ -63,8 +63,8 @@ DerivedDataCache/*
 *.swp
 *.swo
 .ctrlp_cache/
-	
-Content/TopDown/Animations/*
-Content/TopDown/Meshes/*
-Content/TopDown/Character/*
-Content/TopDown/Maps/*
+
+Content/TopDown/Animations/
+Content/TopDown/Meshes/
+Content/TopDown/Character/
+Content/TopDown/Maps/
