@@ -32,6 +32,12 @@ ACyberpunkDiabloPlayer::ACyberpunkDiabloPlayer() : ACyberpunkDiabloCharacter()
 	TopDownCameraComponent->AttachTo(CameraBoom, USpringArmComponent::SocketName);
 	TopDownCameraComponent->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+	//GetWorld()->SpawnActor(ACyberpunkWeaponClass::StaticClass());
 }
 
+void ACyberpunkDiabloPlayer::Tick(float DeltaTime)
+{
+	//do tick stuff
+
+}
 

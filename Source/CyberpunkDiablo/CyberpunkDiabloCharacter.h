@@ -6,8 +6,8 @@
 UCLASS(Blueprintable)
 class ACyberpunkDiabloCharacter : public ACharacter
 {
-public:
 	GENERATED_BODY()
+public:
 	ACyberpunkDiabloCharacter();
 
 	virtual void BeginPlay();

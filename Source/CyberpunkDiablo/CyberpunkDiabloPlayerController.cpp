@@ -88,3 +88,8 @@ void ACyberpunkDiabloPlayerController::OnSetDestinationReleased()
 	// clear flag to indicate we should stop updating the destination
 	bMoveToMouseCursor = false;
 }
+
+void ACyberpunkDiabloPlayerController::FireWeapon()
+{
+	//if the player has a weapon, fire it
+}
